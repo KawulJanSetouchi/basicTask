@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Robot App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Trading Robot App</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="stock-info">
+                <h2>Stock Information</h2>
+                <p>Stock Price: <span id="stock-price">$100.00</span></p>
+            </div>
+            <div class="actions">
+                <h2>Actions</h2>
+                <button id="buy-button">Buy</button>
+                <button id="sell-button">Sell</button>
+                <div class="balance">
+                    <h3>Balance</h3>
+                    <p id="balance-amount">$1000.00</p>
+                </div>
+            </div>
+            <div class="transaction-history">
+                <h2>Transaction History</h2>
+                <ul id="transaction-log">
+                    <li>Simulation started</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
